@@ -17,18 +17,21 @@ footer {
 p{
     text-align:justify;
     text-indent: 8ch;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
 }
 h1
 {
     color:rgb(0, 0, 0);
-  
-    font-size: 68px;
+    font-size: 80px;
 }
 h3 {
     color:rgb(0, 0, 2);
+    font-size: 60px;
 }
 h4 {
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    font-size: 30px;
 }
 .container{
     position: relative;
@@ -37,8 +40,9 @@ h4 {
 }
 .top-left{
     position: absolute;
-    bottom:8px;
-    left:16px
+    bottom:300px;
+    left:16px;
+    margin-right:left ;
 }
 .textcols {
     white-space: nowrap;
@@ -55,4 +59,3 @@ h4 {
     .textcols .textcols-item:last-child {
     margin-right: 0 ;
     }
-
